@@ -80,7 +80,7 @@ class WeatherApp(QWidget):
         self.get_weather_button.clicked.connect(self.get_weather)
 
     def get_weather(self): 
-        api_key = "9392ac8ad8494e1e841115756251610"
+        api_key = 
         city = self.city_input.text() 
         url = f"https://api.weatherapi.com/v1/current.json?key={api_key}&q={city}"
 
