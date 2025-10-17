@@ -5,3 +5,7 @@ __pycache__/
 # Ignore virtual environments
 .venv/
 venv/
+
+# Ignore API key document 
+weather_app/api_key.txt
+
